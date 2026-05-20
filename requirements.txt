@@ -1,0 +1,27 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+openai
+
+#RAG and Vector DB Libraries
+
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+torch
+torchvision
+torchaudio
+langgraph
+langchain-google-genai
+
+#PDF Reading Library
+
+PyMuPDF
+
+# Add this line to the bottom of your existing requirements.txt
+redis

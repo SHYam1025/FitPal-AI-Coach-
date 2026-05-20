@@ -1,0 +1,364 @@
+Meal Name,Description,Meal Category,Portion Size,Calories (kcal),Carbs (g),Protein (g),Fats (g),Fiber (g),Sodium (mg),Vitamin A (μg),Vitamin C (mg),Calcium (mg),Iron (mg)
+Chole Bhature,Spiced chickpea curry served with deep-fried bread,North Indian,1 plate (250g curry + 2 bhature),600,80,15,20,8,800,50,10,150,3
+Aloo Paratha,"Whole wheat flatbread stuffed with spiced potato filling, served with curd and pickle",North Indian,2 parathas (200g) + 100g curd,450,60,10,18,6,600,100,15,200,2
+Paneer Butter Masala,"Creamy tomato-based curry with paneer cubes, served with naan",North Indian,200g curry + 1 naan (100g),550,50,18,30,5,700,120,20,250,2.5
+Rajma Chawal,Kidney bean curry served with steamed rice,North Indian,200g curry + 150g rice,400,65,12,8,7,650,60,12,180,3
+Dal Makhani,"Creamy black lentil curry with butter and spices, served with rice",North Indian,200g curry + 150g rice,500,60,15,22,6,750,80,10,200,2.8
+Butter Chicken,"Rich tomato and butter-based chicken curry, served with naan",North Indian,200g curry + 1 naan (100g),600,50,25,32,4,800,100,15,220,2
+Palak Paneer,"Spinach-based curry with paneer cubes, served with roti",North Indian,200g curry + 2 rotis (100g),400,45,15,18,8,600,150,25,300,3.5
+Tandoori Chicken,"Marinated chicken grilled in a tandoor, served with mint chutney",North Indian,2 pieces (200g) + 50g chutney,350,10,30,20,3,700,50,10,150,2
+Pav Bhaji,Spiced vegetable mash served with buttered bread rolls,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Vada Pav,Spiced potato fritter in a bun with chutneys,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Pani Puri,"Crispy puris filled with spiced water, tamarind chutney, and chickpeas",Street Food,6 puris (150g total),200,30,4,8,3,600,20,15,100,1.5
+Dahi Vada,Fried lentil dumplings soaked in yogurt with spices,Street Food,2 vadas (200g),250,30,8,12,4,700,60,10,150,1.8
+Bhel Puri,"Puffed rice mixed with chutneys, veggies, and sev",Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Samosa,Deep-fried pastry filled with spiced potatoes or meat,Street Food,1 samosa (100g),250,30,5,12,3,600,20,5,100,1.5
+Kathi Roll,Spiced chicken or paneer wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Dosa,Crispy rice and lentil pancake served with sambar and chutney,South Indian,1 dosa (100g) + 100g sambar,250,40,6,8,5,600,30,15,120,2
+Idli,Steamed rice and lentil cakes served with sambar and chutney,South Indian,2 idlis (100g) + 100g sambar,200,35,5,4,4,500,20,10,100,1.8
+Uttapam,"Thick pancake topped with vegetables, served with chutney",South Indian,1 uttapam (150g) + 50g chutney,250,40,6,8,5,550,40,15,130,2
+Pongal,Rice and lentil dish tempered with spices,South Indian,1 bowl (200g),300,45,8,10,4,600,20,5,100,1.5
+Rasam,Spiced tamarind-based soup served with rice,South Indian,150g rasam + 100g rice,200,35,5,4,3,500,30,20,80,1.2
+Chicken Chettinad,"Spicy chicken curry with South Indian spices, served with rice",South Indian,200g curry + 150g rice,450,50,20,18,5,700,60,15,150,2.5
+Upma,Semolina cooked with vegetables and spices,South Indian,1 bowl (200g),250,40,6,8,5,550,30,10,120,2
+Medu Vada,Fried lentil donut served with sambar and chutney,South Indian,1 vada (100g) + 100g sambar,250,30,6,12,4,600,20,10,100,1.8
+Biryani,Spiced rice dish with chicken or vegetables,North Indian,1 plate (300g),550,70,20,20,6,800,50,10,150,2.5
+Pulao,Rice cooked with vegetables and spices,North Indian,1 plate (200g),300,50,6,8,5,600,40,10,120,2
+Dhokla,"Steamed gram flour cake, tempered with mustard seeds",Snack,2 pieces (100g),150,20,5,6,3,500,20,5,80,1.5
+Kachori,Deep-fried pastry filled with spiced lentils,Snack,1 kachori (80g),200,25,5,10,3,600,20,5,100,1.8
+Pakora,Vegetable fritters fried in gram flour batter,Snack,4 pieces (100g),200,20,5,12,3,550,30,10,80,1.5
+Misal Pav,Spicy sprouted lentil curry served with bread,Street Food,1 bowl (200g) + 2 pavs,350,50,10,12,6,700,40,15,120,2
+Jalebi,Deep-fried sweet soaked in sugar syrup,Dessert,2 pieces (100g),300,50,3,10,2,400,10,5,50,1
+Gulab Jamun,Deep-fried milk dumplings soaked in sugar syrup,Dessert,2 pieces (100g),300,40,5,15,1,350,20,5,60,1.2
+Rava Kesari,Semolina dessert cooked with saffron and sugar,Dessert,1 bowl (150g),250,40,3,10,2,300,10,5,50,1
+Poha,Flattened rice cooked with spices and vegetables,Snack,1 bowl (150g),200,35,5,6,4,500,30,10,100,1.8
+Sev Puri,"Crispy puris topped with potatoes, chutneys, and sev",Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Aloo Tikki,Spiced potato patties served with chutney,Street Food,2 tikkis (150g),250,30,5,12,4,600,40,10,120,1.8
+Chicken Tikka,Marinated chicken skewers grilled in tandoor,North Indian,4 pieces (200g),300,5,25,18,2,700,50,10,150,2
+Fish Fry,Spiced fish fillets fried with masala coating,South Indian,1 piece (150g),250,10,20,15,2,600,30,5,100,1.8
+Vegetable Curry,"Mixed vegetables in spiced gravy, served with rice",South Indian,200g curry + 150g rice,350,55,8,10,6,600,60,20,150,2
+Kheer,"Rice pudding with milk, sugar, and nuts",Dessert,1 bowl (150g),250,35,6,10,2,300,20,5,80,1
+Masala Chai,Spiced tea with milk and sugar,Beverage,1 cup (200ml),100,15,2,3,1,100,10,5,50,0.5
+Lassi,Sweet or salted yogurt-based drink,Beverage,1 glass (200ml),150,20,5,5,1,200,20,5,100,0.8
+Thali,"Assorted meal with rice, dal, curry, roti, and sides",North Indian,1 thali (400g total),600,80,15,20,8,800,100,20,200,3
+Pesarattu,Green gram dosa served with chutney,South Indian,1 pesarattu (150g) + 50g chutney,250,35,8,8,5,550,30,10,120,2
+Kofta Curry,"Vegetable or meat dumplings in spiced gravy, served with rice",North Indian,200g curry + 150g rice,450,60,12,15,6,700,60,15,150,2
+Bhindi Masala,Spiced okra curry served with roti,North Indian,200g curry + 2 rotis (100g),350,45,8,12,7,600,50,20,120,2.5
+Matar Paneer,"Peas and paneer in tomato-based curry, served with naan",North Indian,200g curry + 1 naan (100g),450,50,15,20,5,700,80,15,200,2
+Egg Curry,"Boiled eggs in spiced tomato gravy, served with rice",North Indian,200g curry + 150g rice,400,50,12,15,5,650,60,10,150,2
+Prawn Masala,Spiced prawn curry served with rice,South Indian,200g curry + 150g rice,400,50,18,12,5,700,50,10,120,2
+Vegetable Upma,Semolina cooked with mixed vegetables,South Indian,1 bowl (200g),250,40,6,8,5,550,30,15,100,2
+Sambar,Lentil and vegetable stew served with rice,South Indian,150g sambar + 100g rice,200,35,6,4,5,500,40,20,120,2
+Coconut Chutney,Fresh coconut blended with spices,Side,50g,100,5,2,8,2,300,10,10,50,1
+Mint Chutney,Spiced mint and yogurt dip,Side,50g,50,5,2,3,1,200,20,15,50,0.8
+Tamarind Chutney,Sweet and tangy tamarind dip,Side,50g,80,20,1,1,1,150,10,5,30,0.5
+Masala Dosa,Dosa stuffed with spiced potato filling,South Indian,1 dosa (150g) + 100g sambar,300,45,6,10,5,600,30,15,120,2
+Rava Dosa,Crispy semolina dosa served with chutney,South Indian,1 dosa (100g) + 50g chutney,250,40,5,8,4,550,20,10,100,1.8
+Chicken 65,Spicy fried chicken with South Indian spices,South Indian,200g,350,10,20,20,3,700,30,5,100,1.8
+Vegetable Pakora,Mixed vegetable fritters,Snack,4 pieces (100g),200,20,5,12,3,550,30,10,80,1.5
+Kanda Bhaji,Onion fritters fried in gram flour batter,Snack,4 pieces (100g),200,20,5,12,3,550,40,10,80,1.5
+Paniyaram,"Rice and lentil dumplings, sweet or savory",South Indian,4 pieces (100g),200,30,5,8,3,500,20,5,80,1.5
+Murukku,Crispy rice flour snack twisted into spirals,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Thattai,Crispy rice flour and lentil snack,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Banana Chips,Deep-fried banana slices with spices,Snack,50g,150,20,1,8,2,300,20,5,50,1
+Chakli,Spiral-shaped rice flour snack,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Sev,Crispy gram flour noodles,Snack,50g,150,15,3,8,2,400,10,5,50,1
+Aloo Chaat,Spiced potato cubes with chutneys,Street Food,1 bowl (150g),200,30,5,8,4,600,40,15,100,1.8
+Dahi Puri,"Puris filled with yogurt, chutneys, and sev",Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Ragda Pattice,Potato patties topped with white pea curry,Street Food,2 patties + 150g curry,300,40,8,12,5,700,40,15,120,2
+Tandoori Roti,Whole wheat flatbread cooked in tandoor,North Indian,2 rotis (100g),150,30,5,2,3,400,10,5,80,1.5
+Naan,Soft flatbread cooked in tandoor,North Indian,1 naan (100g),200,35,5,5,2,500,10,5,100,1
+Kulcha,Stuffed flatbread with spiced filling,North Indian,1 kulcha (100g),200,30,5,6,2,500,10,5,100,1
+Parotta,Layered South Indian flatbread,South Indian,2 parottas (100g),200,30,5,6,2,500,10,5,100,1
+Appam,Rice pancake with coconut milk,South Indian,2 appams (100g),150,25,3,4,2,400,10,5,80,1
+Puri,Deep-fried puffed bread,North Indian,2 puris (100g),200,25,4,10,2,500,10,5,80,1
+Bhatura,Large deep-fried bread,North Indian,1 bhatura (100g),250,35,5,10,2,500,10,5,100,1
+Chana Masala,Spiced chickpea curry,North Indian,200g,300,40,10,10,8,600,50,15,150,3
+Aloo Gobi,Potato and cauliflower curry,North Indian,200g,250,35,6,10,6,550,60,20,120,2
+Baingan Bharta,Roasted eggplant mash with spices,North Indian,200g,200,25,5,8,6,500,80,20,100,2
+Kadhi Pakora,Gram flour fritters in yogurt-based curry,North Indian,200g curry + 4 pakoras,350,40,10,15,5,700,50,10,150,2
+Shahi Paneer,Paneer in creamy cashew-based curry,North Indian,200g curry + 1 naan (100g),500,50,15,25,4,700,100,15,200,2
+Malai Kofta,Creamy dumplings in rich curry,North Indian,200g curry + 150g rice,450,55,12,20,5,700,80,10,150,2
+Keema Curry,Minced meat curry with spices,North Indian,200g curry + 150g rice,450,50,20,18,5,700,60,10,150,2
+Fish Curry,Fish in spiced coconut-based curry,South Indian,200g curry + 150g rice,400,50,18,12,5,600,50,10,120,2
+Vegetable Korma,Mixed vegetables in creamy coconut curry,South Indian,200g curry + 150g rice,400,50,8,15,6,600,60,15,150,2
+Lemon Rice,Rice tempered with lemon and spices,South Indian,1 plate (200g),250,40,5,8,4,500,20,15,100,1.5
+Tamarind Rice,Rice mixed with tamarind paste and spices,South Indian,1 plate (200g),250,40,5,8,4,500,20,15,100,1.5
+Curd Rice,Rice mixed with yogurt and spices,South Indian,1 plate (200g),200,30,6,6,3,500,20,10,100,1.5
+Bisi Bele Bath,"Rice, lentils, and vegetables in spiced broth",South Indian,1 plate (250g),350,50,10,12,6,600,40,15,120,2
+Kesari Bath,Semolina dessert with saffron and nuts,Dessert,1 bowl (150g),250,40,3,10,2,300,10,5,50,1
+Payasam,Rice or vermicelli in sweetened milk,Dessert,1 bowl (150g),250,35,5,10,2,300,20,5,80,1
+Halwa,Semolina or carrot-based sweet,Dessert,1 bowl (150g),300,40,4,12,2,300,50,5,60,1
+Laddu,Sweet balls made from gram flour or semolina,Dessert,2 pieces (100g),300,40,5,12,2,300,20,5,60,1
+Barfi,Milk-based sweet with nuts,Dessert,2 pieces (100g),300,35,6,15,1,300,20,5,80,1
+Rasmalai,Cheese dumplings in sweetened milk,Dessert,2 pieces (100g),300,35,6,15,1,350,20,5,100,1
+Mysore Pak,Gram flour sweet with ghee,Dessert,2 pieces (100g),350,40,5,20,1,300,10,5,60,1
+Khichdi,Rice and lentil dish with spices,North Indian,1 plate (200g),250,40,8,6,5,500,20,5,100,1.8
+Vegetable Fried Rice,Rice stir-fried with vegetables and spices,North Indian,1 plate (200g),250,40,5,8,4,600,40,15,100,1.5
+Paneer Tikka,Grilled paneer cubes with spices,North Indian,4 pieces (200g),300,10,15,20,3,600,50,10,150,2
+Mutton Curry,"Spiced mutton in rich gravy, served with rice",North Indian,200g curry + 150g rice,500,50,25,20,5,700,60,10,150,2
+Chicken Korma,Chicken in creamy cashew curry,North Indian,200g curry + 1 naan (100g),500,50,20,25,4,700,80,10,150,2
+Aloo Methi,Potato and fenugreek leaves curry,North Indian,200g,250,30,6,10,6,550,100,20,120,2.5
+Dal Tadka,Yellow lentils tempered with spices,North Indian,200g + 150g rice,350,50,12,10,6,600,50,10,120,2
+Gobi Manchurian,Cauliflower in Indo-Chinese sauce,Street Food,200g,300,35,6,12,5,700,50,15,100,1.8
+Chilli Chicken,Chicken in spicy Indo-Chinese sauce,Street Food,200g,350,20,20,15,4,800,50,10,120,2
+Hakka Noodles,Stir-fried noodles with vegetables,Street Food,1 plate (200g),300,45,6,10,4,700,40,15,100,1.5
+Manchow Soup,Spicy Indo-Chinese vegetable soup,Street Food,1 bowl (200ml),100,15,3,3,3,600,30,15,80,1
+Spring Rolls,Crispy rolls filled with vegetables,Street Food,2 rolls (100g),200,25,4,10,3,600,30,10,80,1.5
+Pav Vada,Spiced potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Frankie,Spiced filling wrapped in flatbread,Street Food,1 roll (200g),350,40,10,15,4,700,50,10,120,2
+Masala Papad,Crispy papad topped with spices and veggies,Snack,1 papad (50g),100,10,2,5,2,400,20,5,50,1
+Khaman,Steamed gram flour snack,Snack,2 pieces (100g),150,20,5,6,3,500,20,5,80,1.5
+Patra,Steamed colocasia leaves with spices,Snack,2 pieces (100g),150,20,4,6,4,500,50,10,100,1.8
+Thepla,Spiced fenugreek flatbread,Snack,2 theplas (100g),200,30,5,8,3,500,50,10,100,1.8
+Fafda,Crispy gram flour snack,Snack,50g,150,15,3,8,2,400,10,5,50,1
+Gathiya,Crispy gram flour snack,Snack,50g,150,15,3,8,2,400,10,5,50,1
+Ponganalu,Rice and lentil dumplings,South Indian,4 pieces (100g),200,30,5,8,3,500,20,5,80,1.5
+Kuzhi Paniyaram,Savory rice and lentil dumplings,South Indian,4 pieces (100g),200,30,5,8,3,500,20,5,80,1.5
+Adai,Lentil and rice pancake,South Indian,1 adai (150g) + 50g chutney,250,35,8,8,5,550,30,10,120,2
+Avial,Mixed vegetables in coconut-based curry,South Indian,200g + 150g rice,350,50,8,12,6,600,60,20,150,2
+Kootu,Lentil and vegetable stew,South Indian,200g + 150g rice,350,50,10,10,6,600,50,15,120,2
+Poriyal,Stir-fried vegetables with coconut,South Indian,150g,150,15,3,8,4,500,40,15,100,1.8
+Chicken Saag,Chicken in spinach-based curry,North Indian,200g curry + 150g rice,450,50,25,15,6,700,150,20,200,2.5
+Mutton Rogan Josh,Spiced mutton curry with yogurt,North Indian,200g curry + 1 naan (100g),500,50,25,20,5,700,80,10,150,2
+Paneer Bhurji,Scrambled paneer with spices,North Indian,200g + 2 rotis (100g),400,45,15,18,5,600,80,10,150,2
+Egg Bhurji,Scrambled eggs with spices,North Indian,200g + 2 rotis (100g),350,40,12,15,4,600,60,10,120,2
+Aloo Palak,Potato and spinach curry,North Indian,200g + 150g rice,350,50,8,12,6,600,150,20,150,2.5
+Methi Malai Murg,Chicken in creamy fenugreek curry,North Indian,200g curry + 1 naan (100g),500,50,20,25,4,700,100,10,150,2
+Prawn Biryani,Spiced rice with prawns,South Indian,1 plate (300g),550,70,20,20,6,800,50,10,150,2.5
+Vegetable Biryani,Spiced rice with mixed vegetables,South Indian,1 plate (300g),500,70,10,18,6,800,60,15,150,2
+Mutton Biryani,Spiced rice with mutton,North Indian,1 plate (300g),600,70,25,25,6,800,50,10,150,2.5
+Hyderabadi Biryani,Spiced rice with chicken or mutton,South Indian,1 plate (300g),600,70,25,25,6,800,50,10,150,2.5
+Kolkata Biryani,Spiced rice with potatoes and meat,North Indian,1 plate (300g),550,70,20,20,6,800,60,10,150,2
+Amritsari Kulcha,Stuffed flatbread with potatoes,North Indian,1 kulcha (100g),200,30,5,6,2,500,20,5,100,1
+Tandoori Naan,Soft tandoor-baked naan,North Indian,1 naan (100g),200,35,5,5,2,500,10,5,100,1
+Laccha Paratha,Layered whole wheat flatbread,North Indian,1 paratha (100g),200,30,5,6,2,500,10,5,100,1
+Missi Roti,Spiced gram flour flatbread,North Indian,2 rotis (100g),150,25,5,4,3,400,20,5,80,1.5
+Makki Roti,Cornmeal flatbread,North Indian,2 rotis (100g),150,25,4,4,3,400,20,5,80,1.5
+Bajra Roti,Pearl millet flatbread,North Indian,2 rotis (100g),150,25,4,4,3,400,20,5,80,1.5
+Jowar Roti,Sorghum flatbread,North Indian,2 rotis (100g),150,25,4,4,3,400,20,5,80,1.5
+Ragi Roti,Finger millet flatbread,South Indian,2 rotis (100g),150,25,4,4,3,400,20,5,80,1.5
+Akki Roti,Rice flour flatbread,South Indian,2 rotis (100g),150,25,4,4,2,400,10,5,80,1
+Pesarattu Dosa,Green gram dosa,South Indian,1 dosa (150g) + 50g chutney,250,35,8,8,5,550,30,10,120,2
+Rava Idli,Semolina steamed cakes,South Indian,2 idlis (100g) + 100g sambar,200,35,5,4,4,500,20,10,100,1.8
+Onion Uttapam,Pancake topped with onions,South Indian,1 uttapam (150g) + 50g chutney,250,40,6,8,5,550,40,15,130,2
+Tomato Uttapam,Pancake topped with tomatoes,South Indian,1 uttapam (150g) + 50g chutney,250,40,6,8,5,550,60,20,130,2
+Masala Uttapam,Pancake topped with spiced vegetables,South Indian,1 uttapam (150g) + 50g chutney,250,40,6,8,5,550,50,15,130,2
+Rava Pongal,Semolina and lentil dish,South Indian,1 bowl (200g),300,45,8,10,4,600,20,5,100,1.5
+Ven Pongal,Rice and lentil dish with pepper,South Indian,1 bowl (200g),300,45,8,10,4,600,20,5,100,1.5
+Sweet Pongal,Rice and lentil dessert with jaggery,South Indian,1 bowl (200g),300,50,5,10,3,300,10,5,80,1
+Arisi Upma,Rice flour cooked with spices,South Indian,1 bowl (200g),250,40,5,8,4,550,20,5,100,1.5
+Kambu Koozh,Pearl millet porridge,South Indian,1 bowl (200g),200,35,5,5,4,400,20,5,80,1.5
+Ragi Mudde,Finger millet dumpling,South Indian,1 dumpling (150g) + 100g curry,250,35,6,8,5,500,30,10,100,2
+Paruppu Usili,Lentil crumble with vegetables,South Indian,150g,200,20,8,10,5,500,40,15,100,2
+Vazhakkai Fry,Raw banana stir-fry,South Indian,150g,150,20,3,6,4,500,30,10,80,1.8
+Keerai Poriyal,Spinach stir-fry with coconut,South Indian,150g,150,15,4,8,5,500,100,20,120,2.5
+Beans Poriyal,Green beans stir-fry with coconut,South Indian,150g,150,15,3,8,4,500,50,15,100,1.8
+Cabbage Poriyal,Cabbage stir-fry with coconut,South Indian,150g,150,15,3,8,4,500,50,15,100,1.8
+Carrot Poriyal,Carrot stir-fry with coconut,South Indian,150g,150,15,3,8,4,500,100,15,100,1.8
+Beetroot Poriyal,Beetroot stir-fry with coconut,South Indian,150g,150,15,3,8,4,500,80,15,100,2
+Potato Poriyal,Potato stir-fry with spices,South Indian,150g,150,20,3,6,4,500,40,15,80,1.8
+Chettinad Mushroom,Spicy mushroom curry,South Indian,200g + 150g rice,400,50,8,12,5,600,50,10,120,2
+Pepper Chicken,Spicy black pepper chicken curry,South Indian,200g + 150g rice,450,50,20,15,5,700,50,10,150,2
+Mutton Korma,Mutton in creamy coconut curry,South Indian,200g + 150g rice,500,50,25,20,5,700,60,10,150,2
+Crab Masala,Spiced crab curry,South Indian,200g + 150g rice,450,50,20,15,5,700,50,10,120,2
+Prawn Fry,Spiced prawn stir-fry,South Indian,150g,250,10,18,15,3,600,30,5,100,1.8
+Fish Molee,Fish in coconut milk curry,South Indian,200g + 150g rice,400,50,18,12,5,600,50,10,120,2
+Meen Kuzhambu,Spicy fish curry,South Indian,200g + 150g rice,400,50,18,12,5,600,50,10,120,2
+Vegetable Stew,Mixed vegetables in coconut milk,South Indian,200g + 150g rice,350,50,8,12,6,600,60,15,150,2
+Egg Masala,Boiled eggs in spiced curry,South Indian,200g + 150g rice,400,50,12,15,5,600,60,10,120,2
+Kothu Parotta,Shredded parotta with vegetables or meat,South Indian,1 plate (200g),350,45,10,12,5,700,40,10,120,2
+Chicken Kothu,Shredded parotta with chicken,South Indian,1 plate (200g),400,45,15,15,5,700,50,10,150,2
+Vegetable Kothu,Shredded parotta with vegetables,South Indian,1 plate (200g),350,45,8,12,5,700,50,15,120,2
+Idiyappam,Rice noodles served with curry,South Indian,100g noodles + 100g curry,250,35,6,8,4,500,40,10,100,1.8
+Puttu,Steamed rice flour and coconut,South Indian,100g puttu + 100g curry,250,35,6,8,4,500,40,10,100,1.8
+Appam with Stew,Rice pancake with vegetable stew,South Indian,2 appams (100g) + 150g stew,300,40,6,10,5,600,60,15,150,2
+Pathiri,Rice flour flatbread with curry,South Indian,2 pathiris (100g) + 150g curry,300,40,6,10,5,600,50,10,120,2
+Kappa,Tapioca with fish curry,South Indian,150g tapioca + 100g curry,300,40,8,10,5,600,50,10,120,2
+Malabar Parotta,Layered flatbread with curry,South Indian,2 parottas (100g) + 150g curry,350,45,8,12,5,600,50,10,120,2
+Chicken Sukka,Dry chicken curry with coconut,South Indian,200g + 150g rice,450,50,20,15,5,700,50,10,150,2
+Mutton Sukka,Dry mutton curry with coconut,South Indian,200g + 150g rice,500,50,25,20,5,700,50,10,150,2
+Prawn Sukka,Dry prawn curry with coconut,South Indian,200g + 150g rice,450,50,20,15,5,700,50,10,120,2
+Kozhukattai,Steamed rice flour dumplings,South Indian,4 pieces (100g),200,30,4,6,3,400,10,5,80,1
+Modak,Sweet rice flour dumplings with coconut,Dessert,2 pieces (100g),250,35,4,10,2,300,10,5,60,1
+Adhirasam,Deep-fried rice flour sweet,Dessert,2 pieces (100g),300,40,3,12,2,300,10,5,60,1
+Ariselu,Rice flour and jaggery sweet,Dessert,2 pieces (100g),300,40,3,12,2,300,10,5,60,1
+Pootharekulu,Rice flour and sugar sweet,Dessert,2 pieces (100g),250,35,3,10,1,300,10,5,50,1
+Bobbatlu,Flatbread stuffed with sweet lentils,Dessert,1 piece (100g),250,35,5,10,2,300,10,5,80,1
+Puran Poli,Flatbread stuffed with sweet lentils,Dessert,1 piece (100g),250,35,5,10,2,300,10,5,80,1
+Obbattu,Flatbread stuffed with sweet lentils,Dessert,1 piece (100g),250,35,5,10,2,300,10,5,80,1
+Holige,Flatbread stuffed with sweet lentils,Dessert,1 piece (100g),250,35,5,10,2,300,10,5,80,1
+Chikki,Nut and jaggery brittle,Dessert,50g,200,25,4,10,1,200,10,5,50,1
+Til Ladoo,Sesame seed and jaggery balls,Dessert,2 pieces (50g),200,20,4,12,2,200,10,5,60,1
+Peanut Chikki,Peanut and jaggery brittle,Dessert,50g,200,25,4,10,1,200,10,5,50,1
+Coconut Ladoo,Coconut and condensed milk balls,Dessert,2 pieces (50g),200,20,3,12,1,200,10,5,60,1
+Rava Ladoo,Semolina and sugar balls,Dessert,2 pieces (50g),200,25,3,10,1,200,10,5,50,1
+Besan Ladoo,Gram flour and ghee balls,Dessert,2 pieces (50g),250,25,5,12,1,200,10,5,60,1
+Peda,Milk-based sweet,Dessert,2 pieces (50g),200,20,4,10,1,200,20,5,80,1
+Sandesh,Bengali milk-based sweet,Dessert,2 pieces (50g),200,20,4,10,1,200,20,5,80,1
+Cham Cham,Bengali milk-based sweet,Dessert,2 pieces (50g),200,20,4,10,1,200,20,5,80,1
+Rasgulla,Bengali cheese balls in syrup,Dessert,2 pieces (100g),250,35,5,10,1,200,20,5,80,1
+Pantua,Bengali fried cheese balls in syrup,Dessert,2 pieces (100g),300,35,5,12,1,200,20,5,80,1
+Kheer Kadam,Bengali layered sweet,Dessert,2 pieces (50g),200,20,4,10,1,200,20,5,80,1
+Mishti Doi,Sweetened yogurt,Dessert,1 bowl (150g),200,25,5,8,1,200,20,5,100,1
+Shrikhand,Sweetened strained yogurt,Dessert,1 bowl (150g),200,20,6,10,1,200,20,5,100,1
+Amrakhand,Mango-flavored shrikhand,Dessert,1 bowl (150g),200,25,5,8,1,200,50,15,100,1
+Pista Kulfi,Pistachio-flavored frozen dessert,Dessert,1 piece (100g),200,20,5,12,1,200,20,5,80,1
+Mango Kulfi,Mango-flavored frozen dessert,Dessert,1 piece (100g),200,25,4,10,1,200,50,15,80,1
+Falooda,Rose-flavored dessert with vermicelli,Dessert,1 glass (200g),250,35,5,10,1,200,20,5,100,1
+Rabri,Thickened sweetened milk,Dessert,1 bowl (150g),250,30,6,12,1,200,20,5,100,1
+Gajar Halwa,Carrot-based sweet with ghee,Dessert,1 bowl (150g),300,35,5,15,3,300,100,5,80,1
+Moong Dal Halwa,Lentil-based sweet with ghee,Dessert,1 bowl (150g),300,35,6,15,3,300,10,5,80,1
+Sooji Halwa,Semolina-based sweet with ghee,Dessert,1 bowl (150g),300,35,4,15,2,300,10,5,60,1
+Badam Halwa,Almond-based sweet with ghee,Dessert,1 bowl (150g),350,30,6,20,2,300,20,5,80,1
+Kaju Katli,Cashew-based sweet,Dessert,2 pieces (50g),200,20,4,12,1,200,10,5,60,1
+Anjeer Barfi,Fig-based sweet,Dessert,2 pieces (50g),200,25,4,10,2,200,20,5,80,1
+Coconut Barfi,Coconut-based sweet,Dessert,2 pieces (50g),200,20,3,12,2,200,10,5,60,1
+Poha Chivda,Flattened rice snack with spices,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Masala Peanuts,Spiced roasted peanuts,Snack,50g,200,10,8,15,2,400,10,5,60,1
+Chivda,Spiced flattened rice and nuts,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Murukku,Crispy rice flour snack,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Kodubale,Crispy rice flour rings,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Nippattu,Crispy rice flour discs,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Benne Seedai,Crispy rice flour balls,Snack,50g,150,20,3,7,2,400,10,5,50,1
+Ompodi,Crispy gram flour noodles,Snack,50g,150,15,3,8,2,400,10,5,50,1
+Kara Sev,Spicy gram flour noodles,Snack,50g,150,15,3,8,2,400,10,5,50,1
+Mixture,Mix of fried snacks and nuts,Snack,50g,150,15,3,8,2,400,10,5,50,1
+Bonda,Spiced potato fritters,Snack,2 pieces (100g),200,25,4,10,3,500,20,5,80,1.5
+Mysore Bonda,Spiced lentil fritters,Snack,2 pieces (100g),200,25,5,10,3,500,20,5,80,1.5
+Mangalore Bonda,Spiced lentil fritters,Snack,2 pieces (100g),200,25,5,10,3,500,20,5,80,1.5
+Urad Dal Vada,Fried lentil fritters,Snack,2 pieces (100g),200,25,5,10,3,500,20,5,80,1.5
+Sabudana Vada,Sago and potato fritters,Snack,2 pieces (100g),200,30,4,10,3,500,20,5,80,1.5
+Onion Pakora,Onion fritters in gram flour,Snack,4 pieces (100g),200,20,5,12,3,550,40,10,80,1.5
+Chilli Pakora,Chilli fritters in gram flour,Snack,4 pieces (100g),200,20,5,12,3,550,50,15,80,1.5
+Paneer Pakora,Paneer fritters in gram flour,Snack,4 pieces (100g),250,15,10,15,2,550,50,5,100,1.5
+Chicken Pakora,Chicken fritters in gram flour,Snack,4 pieces (100g),250,10,15,15,2,600,30,5,100,1.8
+Fish Pakora,Fish fritters in gram flour,Snack,4 pieces (100g),250,10,15,15,2,600,30,5,100,1.8
+Prawn Pakora,Prawn fritters in gram flour,Snack,4 pieces (100g),250,10,15,15,2,600,30,5,100,1.8
+Vegetable Cutlet,Spiced vegetable patties,Snack,2 pieces (100g),200,25,5,10,3,500,40,10,100,1.8
+Chicken Cutlet,Spiced chicken patties,Snack,2 pieces (100g),250,15,15,12,2,600,30,5,100,1.8
+Fish Cutlet,Spiced fish patties,Snack,2 pieces (100g),250,15,15,12,2,600,30,5,100,1.8
+Aloo Bonda,Spiced potato fritters,Snack,2 pieces (100g),200,25,4,10,3,500,20,5,80,1.5
+Corn Bonda,Spiced corn fritters,Snack,2 pieces (100g),200,25,4,10,3,500,30,5,80,1.5
+Bread Pakora,Bread stuffed with spiced potatoes,Snack,2 pieces (100g),250,30,5,12,3,550,20,5,80,1.5
+Pav Bhaji,Spiced vegetable mash with bread,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Vada Pav,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Pani Puri,Crispy puris with spiced water,Street Food,6 puris (150g total),200,30,4,8,3,600,20,15,100,1.5
+Sev Puri,Puris with potatoes and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Dahi Puri,Puris with yogurt and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Ragda Pattice,Potato patties with pea curry,Street Food,2 patties + 150g curry,300,40,8,12,5,700,40,15,120,2
+Bhel Puri,Puffed rice with chutneys,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Jhalmuri,Spiced puffed rice,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Pav Vada,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Kathi Roll,Spiced filling in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Chicken Roll,Chicken wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Paneer Roll,Paneer wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Egg Roll,Egg wrapped in paratha,Street Food,1 roll (200g),350,40,12,15,4,700,50,10,120,2
+Mutton Roll,Mutton wrapped in paratha,Street Food,1 roll (200g),400,40,20,18,4,700,50,10,150,2
+Fish Roll,Fish wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Prawn Roll,Prawn wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Aloo Chaat,Spiced potato cubes,Street Food,1 bowl (150g),200,30,5,8,4,600,40,15,100,1.8
+Papdi Chaat,Crispy papdi with chutneys,Street Food,1 plate (150g),250,35,5,10,4,600,30,15,100,1.5
+Raj Kachori,Large kachori with fillings,Street Food,1 kachori (150g),300,40,6,12,4,600,30,10,120,1.8
+Samosa Chaat,Samosa with chutneys and yogurt,Street Food,1 samosa + toppings (150g),300,35,6,12,4,600,30,10,120,1.8
+Tikki Chaat,Potato patties with chutneys,Street Food,2 tikkis + toppings (150g),300,35,6,12,4,600,40,10,120,1.8
+Chole Kulche,Chickpea curry with kulcha,Street Food,200g curry + 1 kulcha (100g),400,55,12,12,6,700,50,15,150,2
+Misal Pav,Spiced sprouted curry with bread,Street Food,1 bowl (200g) + 2 pavs,350,50,10,12,6,700,40,15,120,2
+Pav Bhaji,Spiced vegetable mash with bread,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Dabeli,Spiced potato filling in bun,Street Food,1 dabeli (150g),300,40,6,12,4,600,30,10,120,1.8
+Vada Pav,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Pani Puri,Crispy puris with spiced water,Street Food,6 puris (150g total),200,30,4,8,3,600,20,15,100,1.5
+Sev Puri,Puris with potatoes and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Dahi Puri,Puris with yogurt and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Ragda Pattice,Potato patties with pea curry,Street Food,2 patties + 150g curry,300,40,8,12,5,700,40,15,120,2
+Bhel Puri,Puffed rice with chutneys,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Jhalmuri,Spiced puffed rice,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Pav Vada,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Kathi Roll,Spiced filling in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Chicken Roll,Chicken wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Paneer Roll,Paneer wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Egg Roll,Egg wrapped in paratha,Street Food,1 roll (200g),350,40,12,15,4,700,50,10,120,2
+Mutton Roll,Mutton wrapped in paratha,Street Food,1 roll (200g),400,40,20,18,4,700,50,10,150,2
+Fish Roll,Fish wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Prawn Roll,Prawn wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Aloo Chaat,Spiced potato cubes,Street Food,1 bowl (150g),200,30,5,8,4,600,40,15,100,1.8
+Papdi Chaat,Crispy papdi with chutneys,Street Food,1 plate (150g),250,35,5,10,4,600,30,15,100,1.5
+Raj Kachori,Large kachori with fillings,Street Food,1 kachori (150g),300,40,6,12,4,600,30,10,120,1.8
+Samosa Chaat,Samosa with chutneys and yogurt,Street Food,1 samosa + toppings (150g),300,35,6,12,4,600,30,10,120,1.8
+Tikki Chaat,Potato patties with chutneys,Street Food,2 tikkis + toppings (150g),300,35,6,12,4,600,40,10,120,1.8
+Chole Kulche,Chickpea curry with kulcha,Street Food,200g curry + 1 kulcha (100g),400,55,12,12,6,700,50,15,150,2
+Misal Pav,Spiced sprouted curry with bread,Street Food,1 bowl (200g) + 2 pavs,350,50,10,12,6,700,40,15,120,2
+Pav Bhaji,Spiced vegetable mash with bread,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Dabeli,Spiced potato filling in bun,Street Food,1 dabeli (150g),300,40,6,12,4,600,30,10,120,1.8
+Vada Pav,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Pani Puri,Crispy puris with spiced water,Street Food,6 puris (150g total),200,30,4,8,3,600,20,15,100,1.5
+Sev Puri,Puris with potatoes and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Dahi Puri,Puris with yogurt and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Ragda Pattice,Potato patties with pea curry,Street Food,2 patties + 150g curry,300,40,8,12,5,700,40,15,120,2
+Bhel Puri,Puffed rice with chutneys,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Jhalmuri,Spiced puffed rice,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Pav Vada,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Kathi Roll,Spiced filling in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Chicken Roll,Chicken wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Paneer Roll,Paneer wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Egg Roll,Egg wrapped in paratha,Street Food,1 roll (200g),350,40,12,15,4,700,50,10,120,2
+Mutton Roll,Mutton wrapped in paratha,Street Food,1 roll (200g),400,40,20,18,4,700,50,10,150,2
+Fish Roll,Fish wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Prawn Roll,Prawn wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Aloo Chaat,Spiced potato cubes,Street Food,1 bowl (150g),200,30,5,8,4,600,40,15,100,1.8
+Papdi Chaat,Crispy papdi with chutneys,Street Food,1 plate (150g),250,35,5,10,4,600,30,15,100,1.5
+Raj Kachori,Large kachori with fillings,Street Food,1 kachori (150g),300,40,6,12,4,600,30,10,120,1.8
+Samosa Chaat,Samosa with chutneys and yogurt,Street Food,1 samosa + toppings (150g),300,35,6,12,4,600,30,10,120,1.8
+Tikki Chaat,Potato patties with chutneys,Street Food,2 tikkis + toppings (150g),300,35,6,12,4,600,40,10,120,1.8
+Chole Kulche,Chickpea curry with kulcha,Street Food,200g curry + 1 kulcha (100g),400,55,12,12,6,700,50,15,150,2
+Misal Pav,Spiced sprouted curry with bread,Street Food,1 bowl (200g) + 2 pavs,350,50,10,12,6,700,40,15,120,2
+Pav Bhaji,Spiced vegetable mash with bread,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Dabeli,Spiced potato filling in bun,Street Food,1 dabeli (150g),300,40,6,12,4,600,30,10,120,1.8
+Vada Pav,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Pani Puri,Crispy puris with spiced water,Street Food,6 puris (150g total),200,30,4,8,3,600,20,15,100,1.5
+Sev Puri,Puris with potatoes and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Dahi Puri,Puris with yogurt and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Ragda Pattice,Potato patties with pea curry,Street Food,2 patties + 150g curry,300,40,8,12,5,700,40,15,120,2
+Bhel Puri,Puffed rice with chutneys,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Jhalmuri,Spiced puffed rice,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Pav Vada,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Kathi Roll,Spiced filling in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Chicken Roll,Chicken wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Paneer Roll,Paneer wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Egg Roll,Egg wrapped in paratha,Street Food,1 roll (200g),350,40,12,15,4,700,50,10,120,2
+Mutton Roll,Mutton wrapped in paratha,Street Food,1 roll (200g),400,40,20,18,4,700,50,10,150,2
+Fish Roll,Fish wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Prawn Roll,Prawn wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Aloo Chaat,Spiced potato cubes,Street Food,1 bowl (150g),200,30,5,8,4,600,40,15,100,1.8
+Papdi Chaat,Crispy papdi with chutneys,Street Food,1 plate (150g),250,35,5,10,4,600,30,15,100,1.5
+Raj Kachori,Large kachori with fillings,Street Food,1 kachori (150g),300,40,6,12,4,600,30,10,120,1.8
+Samosa Chaat,Samosa with chutneys and yogurt,Street Food,1 samosa + toppings (150g),300,35,6,12,4,600,30,10,120,1.8
+Tikki Chaat,Potato patties with chutneys,Street Food,2 tikkis + toppings (150g),300,35,6,12,4,600,40,10,120,1.8
+Chole Kulche,Chickpea curry with kulcha,Street Food,200g curry + 1 kulcha (100g),400,55,12,12,6,700,50,15,150,2
+Misal Pav,Spiced sprouted curry with bread,Street Food,1 bowl (200g) + 2 pavs,350,50,10,12,6,700,40,15,120,2
+Pav Bhaji,Spiced vegetable mash with bread,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Dabeli,Spiced potato filling in bun,Street Food,1 dabeli (150g),300,40,6,12,4,600,30,10,120,1.8
+Vada Pav,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Pani Puri,Crispy puris with spiced water,Street Food,6 puris (150g total),200,30,4,8,3,600,20,15,100,1.5
+Sev Puri,Puris with potatoes and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Dahi Puri,Puris with yogurt and chutneys,Street Food,6 puris (150g),250,35,5,10,4,600,30,15,100,1.5
+Ragda Pattice,Potato patties with pea curry,Street Food,2 patties + 150g curry,300,40,8,12,5,700,40,15,120,2
+Bhel Puri,Puffed rice with chutneys,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Jhalmuri,Spiced puffed rice,Street Food,1 bowl (150g),200,35,5,6,5,500,30,20,120,2
+Pav Vada,Potato fritter in bun,Street Food,1 vada pav (150g),300,40,6,14,4,800,40,10,120,1.8
+Kathi Roll,Spiced filling in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Chicken Roll,Chicken wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Paneer Roll,Paneer wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,150,2
+Egg Roll,Egg wrapped in paratha,Street Food,1 roll (200g),350,40,12,15,4,700,50,10,120,2
+Mutton Roll,Mutton wrapped in paratha,Street Food,1 roll (200g),400,40,20,18,4,700,50,10,150,2
+Fish Roll,Fish wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Prawn Roll,Prawn wrapped in paratha,Street Food,1 roll (200g),350,40,15,15,4,700,50,10,120,2
+Aloo Chaat,Spiced potato cubes,Street Food,1 bowl (150g),200,30,5,8,4,600,40,15,100,1.8
+Papdi Chaat,Crispy papdi with chutneys,Street Food,1 plate (150g),250,35,5,10,4,600,30,15,100,1.5
+Raj Kachori,Large kachori with fillings,Street Food,1 kachori (150g),300,40,6,12,4,600,30,10,120,1.8
+Samosa Chaat,Samosa with chutneys and yogurt,Street Food,1 samosa + toppings (150g),300,35,6,12,4,600,30,10,120,1.8
+Tikki Chaat,Potato patties with chutneys,Street Food,2 tikkis + toppings (150g),300,35,6,12,4,600,40,10,120,1.8
+Chole Kulche,Chickpea curry with kulcha,Street Food,200g curry + 1 kulcha (100g),400,55,12,12,6,700,50,15,150,2
+Misal Pav,Spiced sprouted curry with bread,Street Food,1 bowl (200g) + 2 pavs,350,50,10,12,6,700,40,15,120,2
+Pav Bhaji,Spiced vegetable mash with bread,Street Food,2 pavs + 200g bhaji,400,55,8,18,6,900,80,20,180,2.5
+Dabeli,Spiced potato filling in bun,Street Food,1 dabeli (150g),300,40,6,12,4,600,30,10,120,1.8
