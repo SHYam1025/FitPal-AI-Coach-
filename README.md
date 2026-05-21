@@ -2,7 +2,7 @@
 
 # 🏋️ FitPal AI Coach — Backend Engine
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Stateful+Multi-Channel+AI+Fitness+Coach;LangGraph+%2B+Gemini+%2B+Redis+%2B+FastAPI;Real-Time+Telegram+%26+WhatsApp+Webhooks;Memory-Safe+PDF+Medical+Report+Analyzer" alt="Typing SVG" />
+![FitPal AI Coach — System Banner](assets/banner.jpg)
 
 <br/>
 
@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
 <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/LangGraph-FF6B35?style=for-the-badge&logo=graph&logoColor=white" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/LangGraph-FF6B35?style=for-the-badge&logoColor=white" alt="LangGraph"/>
 <img src="https://img.shields.io/badge/PyMuPDF-00599C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="PyMuPDF"/>
 <img src="https://img.shields.io/badge/FAISS-0052CC?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS"/>
 <img src="https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" alt="Uvicorn"/>
@@ -87,7 +87,11 @@ The architecture is designed around three non-negotiable production principles: 
 
 The backend leverages a modular router blueprint designed to handle high-concurrency mobile streaming webhooks. Inbound data requests from messaging platforms are parsed instantly; any long-running transactions (such as downloading <code>2MB+</code> lab reports or running multi-page PDF extractions) are immediately offloaded to <code>BackgroundTasks</code> threads. This ensures the main server loops return an instant <code>200 OK</code> connection handshake back to the external platform gateways, mitigating packet drops or duplicate retry triggers from platform delivery systems.
 
-![Webhook Gateway Flow — Inbound Bot Ping Visualization](assets/screenshot_webhook_flow.png)
+<div align="center">
+<img src="assets/chat_general.png" width="320" alt="FitPal Bot — General Chat Workout Coaching via Telegram"/>
+<br/>
+<em>FitPal responding to a live fitness query on Telegram — general chat routing in action.</em>
+</div>
 
 ---
 
@@ -98,7 +102,11 @@ The system's reasoning center is structured around a <code>StateGraph</code> exe
 - <code>Specialized Worker Nodes</code>: Routes dynamically based on state classification variables into isolated processors — RAG chat nodes, macro-estimation parsers, or medical analysis engines.
 - <code>State Unification Layer</code>: Normalizes language model outputs under strict HTML styling rules and commits the full turn to <code>RedisChatMessageHistory</code> before graph exit.
 
-![LangGraph Router Visualization — Bot Intent Routing Reply](assets/screenshot_langgraph_router.png)
+<div align="center">
+<img src="assets/langgraph_architecture.jpg" width="900" alt="LangGraph State Engine — Full Architecture Diagram"/>
+<br/>
+<em>Full LangGraph State Engine — PDF inputs, Redis coordination, intent routing, and three specialized worker nodes.</em>
+</div>
 
 ---
 
@@ -106,7 +114,11 @@ The system's reasoning center is structured around a <code>StateGraph</code> exe
 
 State synchronization relies on a high-performance <code>Redis</code> memory cache layer running on <code>localhost:6379</code>. Messaging applications like <code>Telegram</code> distribute media file uploads and their accompanying text captions as separate, non-simultaneous webhook events. To counteract this data fragmentation, <code>Redis</code> acts as a stateful staging area. It caches whichever event segment arrives first for up to <code>60 seconds</code>. The moment both the <code>pdf_cache_key</code> and <code>msg_cache_key</code> slots are populated, the background thread merges the prompt string and the extracted file text perfectly before invoking the <code>LangGraph</code> engine. Successful reconciliation triggers an immediate key deletion to reset the staging bucket for the next turn.
 
-![Redis Handshake App Logs — Multi-turn Mobile Chat Session](assets/screenshot_redis_logs.png)
+<div align="center">
+<img src="assets/calorie_logger.png" width="320" alt="FitPal Calorie Logger — Multi-turn Chat Session with Meal Breakdown"/>
+<br/>
+<em>Multi-turn session — medical report analysis followed by an instant calorie log request, both handled in the same session context.</em>
+</div>
 
 ---
 
@@ -114,7 +126,11 @@ State synchronization relies on a high-performance <code>Redis</code> memory cac
 
 Document processing uses a diskless, RAM-first extraction pipeline. Rather than dumping user health files to the server's local hard drive, the system streams raw document binaries straight into memory arrays via <code>httpx.AsyncClient</code>. The <code>PyMuPDF</code> (<code>fitz</code>) engine parses the text layers instantly from memory using <code>fitz.open(stream=pdf_bytes, filetype="pdf")</code> and passes the extracted string directly into the <code>LangGraph</code> context window. The temporary memory arrays are then flushed immediately — entirely bypassing local storage I/O limits, removing file deletion maintenance tasks, and securing sensitive user health data.
 
-![Medical Report Processing — Mobile Screen Response View](assets/screenshot_pdf_analysis.png)
+<div align="center">
+<img src="assets/pdf_analysis.png" width="320" alt="FitPal — Medical PDF Report Upload and Analysis on Telegram"/>
+<br/>
+<em>User uploads a 2.2MB Personal Health Smart Report PDF via Telegram — FitPal performs a full clinical analysis with dietary recommendations in real time.</em>
+</div>
 
 ---
 
@@ -137,6 +153,13 @@ fitness_ai_app/
 │   ├── normal_indian_meals_dataset.csv
 │   └── master_exercise_sheet_1000_detailed.csv
 │
+├── assets/                  # README documentation images and screenshots
+│   ├── banner.jpg
+│   ├── langgraph_architecture.jpg
+│   ├── chat_general.png
+│   ├── calorie_logger.png
+│   └── pdf_analysis.png
+│
 ├── vectors/                 # Local FAISS vector index storage (auto-generated)
 │
 ├── .env                     # Runtime credentials — NEVER committed to git
@@ -156,7 +179,7 @@ fitness_ai_app/
                          ┌─────────────────────────────────┐
                          │         USER INPUT ARRIVES        │
                          │   (via Telegram / WhatsApp)       │
-                         └────────────────┬────────────────-─┘
+                         └────────────────┬─────────────────┘
                                           │
                                           ▼
                          ┌────────────────────────────────┐
@@ -293,15 +316,19 @@ python sync_webhook.py
 
 ## 📸 Live System Screenshots
 
-> Drop your screenshots into the `assets/` folder at the root of this repository to populate the slots below.
+<div align="center">
 
-| Webhook Ingestion Flow | LangGraph Router Reply |
+| General Fitness Coaching | Real-Time Calorie Logging |
 | :---: | :---: |
-| ![Webhook Flow](assets/screenshot_webhook_flow.png) | ![LangGraph Router](assets/screenshot_langgraph_router.png) |
+| <img src="assets/chat_general.png" width="280" alt="General Chat — Workout Recommendations"/> | <img src="assets/calorie_logger.png" width="280" alt="Calorie Logger — Meal Macro Breakdown"/> |
+| *Workout plan generation for an 81kg user via Telegram* | *Instant meal macro estimation with medical report context* |
 
-| Redis Sync Logs | Medical PDF Analysis |
+| Medical PDF Report Analysis | LangGraph Architecture |
 | :---: | :---: |
-| ![Redis Logs](assets/screenshot_redis_logs.png) | ![PDF Analysis](assets/screenshot_pdf_analysis.png) |
+| <img src="assets/pdf_analysis.png" width="280" alt="Medical PDF Analysis — Health Report Breakdown"/> | <img src="assets/langgraph_architecture.jpg" width="460" alt="LangGraph State Engine Architecture Diagram"/> |
+| *2.2MB Personal Health Smart Report analyzed in real time* | *Full LangGraph State Engine with Redis coordination and three worker nodes* |
+
+</div>
 
 ---
 
