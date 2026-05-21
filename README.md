@@ -88,6 +88,12 @@ The architecture is designed around three non-negotiable production principles: 
 The backend leverages a modular router blueprint designed to handle high-concurrency mobile streaming webhooks. Inbound data requests from messaging platforms are parsed instantly; any long-running transactions (such as downloading <code>2MB+</code> lab reports or running multi-page PDF extractions) are immediately offloaded to <code>BackgroundTasks</code> threads. This ensures the main server loops return an instant <code>200 OK</code> connection handshake back to the external platform gateways, mitigating packet drops or duplicate retry triggers from platform delivery systems.
 
 <div align="center">
+<img src="assets/terminal_logs.png" width="860" alt="Live Uvicorn Server Logs — Redis Staging, LangGraph Routing, PDF Extraction"/>
+<br/>
+<em>Live server terminal — showing Redis staging, LangGraph intent classification, PDF binary extraction, and <code>200 OK</code> webhook responses across a full real session.</em>
+</div>
+
+<div align="center">
 <img src="assets/chat_general.png" width="320" alt="FitPal Bot — General Chat Workout Coaching via Telegram"/>
 <br/>
 <em>FitPal responding to a live fitness query on Telegram — general chat routing in action.</em>
@@ -327,6 +333,12 @@ python sync_webhook.py
 | :---: | :---: |
 | <img src="assets/pdf_analysis.png" width="280" alt="Medical PDF Analysis — Health Report Breakdown"/> | <img src="assets/langgraph_architecture.jpg" width="460" alt="LangGraph State Engine Architecture Diagram"/> |
 | *2.2MB Personal Health Smart Report analyzed in real time* | *Full LangGraph State Engine with Redis coordination and three worker nodes* |
+
+**Live Backend Server Logs**
+
+<img src="assets/terminal_logs.png" width="860" alt="Live Uvicorn Terminal — Redis Staging, LangGraph Routing, PDF Extraction, 200 OK Responses"/>
+
+*End-to-end real session trace: Redis key staging → PDF binary download → LangGraph intent routing → <code>analyze_report</code> / <code>log_calories</code> / <code>general_chat</code> classification → <code>200 OK</code> dispatch.*
 
 </div>
 
